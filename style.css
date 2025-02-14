@@ -1,9 +1,13 @@
 body {
-  background-color: gray;
+  background-color: rgb(90, 138, 90);
 }
 
 .color-bar {
   background-color: darkgreen;
+}
+
+.color-bar2 {
+  background-color: gray;
 }
 
 .bg-image {
