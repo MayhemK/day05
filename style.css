@@ -3,5 +3,32 @@ body {
 }
 
 .color-bar {
-  background-color: orange;
+  background-color: darkgreen;
+}
+
+.bg-image {
+  background-image: url(https://images.unsplash.com/photo-1502134249126-9f3755a50d78?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+}
+
+.pady {
+  padding: 4rem;
+}
+
+.spill {
+  position: absolute;
+  top: 60px
+}
+
+
+
+
+
+
+
+
+
+@media screen AND (max-width:767.98px) {
+  .spill {
+    position: static;
+  }
 }
